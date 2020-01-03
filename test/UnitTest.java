@@ -1,3 +1,4 @@
+/*
 import controllers.PersonController;
 import models.Person;
 import models.PersonRepository;
@@ -30,11 +31,13 @@ import static play.mvc.Http.Status.OK;
 import static play.mvc.Http.Status.SEE_OTHER;
 import static play.test.Helpers.contentAsString;
 
+*/
 /**
  * Simple (JUnit) tests that can call all parts of a play app.
  * <p>
  * https://www.playframework.com/documentation/latest/JavaTest
- */
+ *//*
+
 public class UnitTest {
 
     @Test
@@ -109,3 +112,4 @@ public class UnitTest {
     }
 
 }
+*/

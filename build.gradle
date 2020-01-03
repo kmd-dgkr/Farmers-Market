@@ -29,8 +29,11 @@ dependencies {
     play "com.typesafe.play:filters-helpers_$scalaVersion:$playVersion"
     play "com.typesafe.play:play-java-jpa_$scalaVersion:$playVersion"
 
-    play "org.hibernate:hibernate-core:5.2.5.Final"
+    play "org.hibernate:hibernate-core:5.3.1.Final"
     play "com.h2database:h2:1.4.197"
+
+    //"mysql" % "mysql-connector-java" % "8.0.18" //error oste
+    play "mysql:mysql-connector-java:8.0.18"
 
     playTest "org.awaitility:awaitility:2.0.0"
     playTest "org.assertj:assertj-core:3.6.2"

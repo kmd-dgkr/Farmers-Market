@@ -2,17 +2,22 @@ package controllers;
 
 import models.Person;
 import models.PersonRepository;
+import play.Logger;
 import play.data.FormFactory;
 import play.libs.concurrent.HttpExecutionContext;
 import play.mvc.Controller;
 import play.mvc.Result;
 
+import com.fasterxml.jackson.databind.JsonNode;
 import javax.inject.Inject;
 import java.util.concurrent.CompletionStage;
 import java.util.stream.Collectors;
 
 import static play.libs.Json.toJson;
+import static play.libs.Json.fromJson;
 
+
+import java.util.*;
 /**
  * The controller keeps all database operations behind the repository, and uses
  * {@link play.libs.concurrent.HttpExecutionContext} to provide access to the
@@ -42,9 +47,25 @@ public class PersonController extends Controller {
         }, ec.current());
     }
 
+    public CompletionStage<Result> addPersonJson() {
+        JsonNode js = request().body().asJson();
+        Person person = fromJson(js, Person.class);
+        return personRepository.add(person).thenApplyAsync(p -> {
+            //return redirect(routes.PersonController.index());
+            return ok("Insert successful.");
+        }, ec.current());
+    }
+
     public CompletionStage<Result> getPersons() {
         return personRepository.list().thenApplyAsync(personStream -> {
             return ok(toJson(personStream.collect(Collectors.toList())));
+        }, ec.current());
+    }
+
+    public CompletionStage<Result> deletePerson(String name) {
+        Logger.warn(name);
+        return personRepository.delete(name).thenApplyAsync(personStream -> {
+            return ok("Delete successful");
         }, ec.current());
     }
 
