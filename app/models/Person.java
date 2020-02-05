@@ -7,7 +7,7 @@ public class Person {
 
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
-	public Long id;
+	public Long id; //primary key with autoincrement.
 
     public String name;
 
@@ -25,6 +25,16 @@ public class Person {
 
     public void setId(Long id) {
         this.id = id;
+    }
+
+    public String contact;
+
+    public String getContact() {
+        return contact;
+    }
+
+    public void setContact(String contact) {
+        this.contact = contact;
     }
 
 }

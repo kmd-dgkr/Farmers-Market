@@ -3,7 +3,7 @@
 # ~~~~
 
 # Home page
-GET     /                           controllers.PersonController.index()
+GET     /prsn                       controllers.PersonController.index()
 POST    /person                     controllers.PersonController.addPerson()
 POST    /personJson                 controllers.PersonController.addPersonJson()
 GET     /persons                    controllers.PersonController.getPersons()
@@ -11,3 +11,26 @@ GET     /delete/:name               controllers.PersonController.deletePerson(na
 #Get above should be delete
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)
+
+# Crop details raw
+GET     /crps                       controllers.CropController.index()
+POST    /crop                       controllers.CropController.addCrop()
+POST    /cropJson                   controllers.CropController.addCropJson()
+GET     /crops                      controllers.CropController.getCrops()
+GET     /deletecrop/:name           controllers.CropController.deleteCrop(name : String)
+
+# Buyer details raw
+
+GET     /byrs                       controllers.BuyerController.index()
+POST    /buyer                      controllers.BuyerController.addBuyer()
+POST    /buyerJson                  controllers.BuyerController.addBuyerJson()
+GET     /buyers                     controllers.BuyerController.getBuyers()
+GET     /deletebuyer/:name          controllers.BuyerController.deleteBuyer(name : String)
+
+# Bid details raw
+
+GET     /bds                        controllers.BidController.index()
+POST    /bid                        controllers.BidController.addBid()
+POST    /bidJson                    controllers.BidController.addBidJson()
+GET     /bids                       controllers.BidController.getBids()
+GET     /deletebid/:bidid           controllers.BidController.deleteBid(bidid : Long)
