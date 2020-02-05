@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f4cbab28-1e1d-47be-a481-df1292c21b4e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="ProjectId" id="1XNAPWJWyy4LsPtEvnMDfQpiLvg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle idea" />
+      <command value="gradle runPlayBinary" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.Farmers-Market [runPlayBinary]">
+    <configuration name="Farmers-Market [idea]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="idea" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Farmers-Market [runPlayBinary]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runPlayBinary" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Farmers-Market [runPlayBinary]" />
+        <item itemvalue="Gradle.Farmers-Market [idea]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4cbab28-1e1d-47be-a481-df1292c21b4e" name="Default Changelist" comment="" />
+      <created>1580876154726</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580876154726</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1114" y="571" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580877578259">
+      <screen x="0" y="23" width="2560" height="1312" />
+    </state>
+    <state x="1114" y="571" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.2560.1312@0.23.2560.1312" timestamp="1580877578259" />
+    <state x="183" y="277" key="CommitChangelistDialog2" timestamp="1580884050435">
+      <screen x="0" y="23" width="2560" height="1294" />
+    </state>
+    <state x="183" y="277" key="CommitChangelistDialog2/0.23.2560.1294@0.23.2560.1294" timestamp="1580884050435" />
+    <state width="1288" height="370" key="GridCell.Tab.0.bottom" timestamp="1580883864350">
+      <screen x="0" y="23" width="2560" height="1294" />
+    </state>
+    <state width="1288" height="370" key="GridCell.Tab.0.bottom/0.23.2560.1294@0.23.2560.1294" timestamp="1580883864350" />
+    <state width="2518" height="370" key="GridCell.Tab.0.bottom/0.23.2560.1301@0.23.2560.1301" timestamp="1580876202721" />
+    <state width="1371" height="370" key="GridCell.Tab.0.bottom/0.23.2560.1309@0.23.2560.1309" timestamp="1580878234098" />
+    <state width="1288" height="370" key="GridCell.Tab.0.center" timestamp="1580883864349">
+      <screen x="0" y="23" width="2560" height="1294" />
+    </state>
+    <state width="1288" height="370" key="GridCell.Tab.0.center/0.23.2560.1294@0.23.2560.1294" timestamp="1580883864349" />
+    <state width="2518" height="370" key="GridCell.Tab.0.center/0.23.2560.1301@0.23.2560.1301" timestamp="1580876202719" />
+    <state width="1371" height="370" key="GridCell.Tab.0.center/0.23.2560.1309@0.23.2560.1309" timestamp="1580878234096" />
+    <state width="1288" height="370" key="GridCell.Tab.0.left" timestamp="1580883864348">
+      <screen x="0" y="23" width="2560" height="1294" />
+    </state>
+    <state width="1288" height="370" key="GridCell.Tab.0.left/0.23.2560.1294@0.23.2560.1294" timestamp="1580883864348" />
+    <state width="2518" height="370" key="GridCell.Tab.0.left/0.23.2560.1301@0.23.2560.1301" timestamp="1580876202719" />
+    <state width="1371" height="370" key="GridCell.Tab.0.left/0.23.2560.1309@0.23.2560.1309" timestamp="1580878234096" />
+    <state width="1288" height="370" key="GridCell.Tab.0.right" timestamp="1580883864350">
+      <screen x="0" y="23" width="2560" height="1294" />
+    </state>
+    <state width="1288" height="370" key="GridCell.Tab.0.right/0.23.2560.1294@0.23.2560.1294" timestamp="1580883864350" />
+    <state width="2518" height="370" key="GridCell.Tab.0.right/0.23.2560.1301@0.23.2560.1301" timestamp="1580876202720" />
+    <state width="1371" height="370" key="GridCell.Tab.0.right/0.23.2560.1309@0.23.2560.1309" timestamp="1580878234097" />
+    <state x="454" y="594" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580884142213">
+      <screen x="0" y="23" width="2560" height="1294" />
+    </state>
+    <state x="454" y="594" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2560.1294@0.23.2560.1294" timestamp="1580884142213" />
+    <state x="945" y="317" width="670" height="675" key="run.anything.popup" timestamp="1580876202690">
+      <screen x="0" y="23" width="2560" height="1301" />
+    </state>
+    <state x="945" y="317" width="670" height="675" key="run.anything.popup/0.23.2560.1301@0.23.2560.1301" timestamp="1580876202690" />
+  </component>
+</project>
