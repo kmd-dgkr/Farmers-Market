@@ -9,14 +9,14 @@ public class Bid {
 
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
-    public Long bidid; //bid id and primary key
+    public Long bidId; //bid id and primary key
 
-    public Long getBidid() {
-        return bidid;
+    public Long getBidId() {
+        return bidId;
     }
 
-    public void setBidid(Long bidid) {
-        this.bidid = bidid;
+    public void setBidId(Long bidId) {
+        this.bidId = bidId;
     }
 
     /*public List<String> buyers; //buyer's id's who bid for a particular bid, foreign key mapping to be done.
@@ -31,14 +31,18 @@ public class Bid {
 
     public void setBuyers(String buyers) { this.buyers = buyers; }
 
-    public Time bidwindow;
+    public Time bidWindow;
 
-    public Time getBidwindow() { return bidwindow; }
+    public Time getBidWindow() { return bidWindow; }
 
-    public void setBidwindow(Time window) { this.bidwindow = bidwindow; }
+    public void setBidWindow(Time bidWindow) { this.bidWindow = bidWindow; }
 
-    /*@OneToOne(mappedBy = "bidid")
+    @OneToOne(mappedBy = "bidId")
     @JoinTable(name = "Crop")
-    private Crop crop;*/
+    private Crop crop;
+
+    public Crop getCrop() { return crop; }
+
+    public void setCrop(Crop crop) { this.crop = crop; }
 
 }

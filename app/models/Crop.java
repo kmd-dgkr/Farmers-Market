@@ -58,16 +58,25 @@ public class Crop {
         this.person = person;
     }*/
 
-    /*@OneToOne(mappedBy = "Crop", cascade = CascadeType.ALL)
+    @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(unique = true)
-    public Bid bidid;
+    public Bid bidId;
 
-    public Bid getBid() {
-        return bidid;
+    public Bid getBidId() {
+        return bidId;
     }
 
-    public void setBid(Bid bidid) {
-        this.bidid = bidid;
-    }*/
+    public void setBidId(Bid bidId) {
+        this.bidId = bidId;
+    }
 
+    public String location;
+
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
 }
